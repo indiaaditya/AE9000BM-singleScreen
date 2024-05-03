@@ -1,0 +1,35 @@
+1	4   arr_MODBUS[0]=&VR_MB;        0            
+2	8   arr_MODBUS[1]=&VY_MB;        2 
+3	12  arr_MODBUS[2]=&VB_MB;        4
+4	16  arr_MODBUS[3]=&VLNavg_MB;    6
+  
+5	20  arr_MODBUS[4]=&VRY_MB;       8
+6	24  arr_MODBUS[5]=&VYB_MB;       10
+7	28  arr_MODBUS[6]=&VBR_MB;       12
+8	32  arr_MODBUS[7]=&VLLavg_MB;    14
+  
+9	36  arr_MODBUS[8]=&IR_MB;        16
+10	40  arr_MODBUS[9]=&IY_MB;        18
+11	44  arr_MODBUS[10]=&IB_MB;       20
+12	48  arr_MODBUS[11]=&Iavg_MB;     22
+  
+13	52  arr_MODBUS[12]=&PFR_MB;      24
+14	56  arr_MODBUS[13]=&PFY_MB;      26
+15	60  arr_MODBUS[14]=&PFB_MB;      28
+16	64  arr_MODBUS[15]=&PFavg_MB;    30
+17	68  arr_MODBUS[16]=&Frq_MB;      32
+  
+18	72  arr_MODBUS[17]=&KWr_MB;      34
+19	76  arr_MODBUS[18]=&KWy_MB;      36
+20	80  arr_MODBUS[19]=&KWb_MB;      38
+21	84  arr_MODBUS[20]=&WTot_MB;     40
+
+22	88  arr_MODBUS[21]=&VARr_MB;     42
+23	92  arr_MODBUS[22]=&VARy_MB;     44
+24	96  arr_MODBUS[23]=&VARb_MB;     46
+25	100  arr_MODBUS[24]=&VARTot_MB;  48
+
+26	104  arr_MODBUS[25]=&KVAr_MB     50
+27	108  arr_MODBUS[26]=&KVAy_MB;    52
+28	112  arr_MODBUS[27]=&KVAb_MB;    54
+29	116  arr_MODBUS[28]=&KVATot_MB;  56

@@ -1,0 +1,159 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1275885954
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[watch_formats]
+Fmt0={W}0:KWHf	0	7
+Fmt1={W}0:ucRowLong	4	7
+Fmt2={W}42:PHBCAL	3	0
+Fmt3={W}42:PHRCAL	3	0
+Fmt4={W}42:PHYCAL	3	0
+Fmt5={W}42:Run_flag	3	0
+Fmt6={W}42:Set_Cunt	3	0
+Fmt7={W}42:memory_location_flag	3	0
+Fmt8={W}42:phase	3	0
+Fmt9={W}42:ucRow2	0	1
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 12
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp3=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp4=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp5=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp6=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp7=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\My_Fun.c}.736.11" 0 0 1 "" 0 "" 0
+Bp8=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Documents and Settings\atul}.598.12" 0 0 1 "" 0 "" 0
+Bp9=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Documents and Settings\atul}.598.10" 0 0 1 "" 0 "" 0
+Bp10=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\..\..\..\..\..\..\Documents and Settings\atul}.744.8" 0 0 1 "" 0 "" 0
+Bp11=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\Calibration.c}.94.3" 0 0 1 "" 0 "" 0
+Bp12=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\Calibration.c}.92.3" 0 0 1 "" 0 "" 0
+Bp13=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\struct.h}.122.83" 0 0 1 "" 0 "" 0
+Count=14
+[Aliases]
+A0=_ "C:\Documents and Settings\Avinash\Desktop\11092012_milind\voltage and current\27082012\complete calibration\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\WATT METER\11092012_milind\voltage and current\27082012\complete calibration\Project\Virtual_COM_Port\src\main.c"
+A1=_ "C:\Documents and Settings\Avinash\Desktop\27092012\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\27092012\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c"
+A2=_ "C:\Documents and Settings\Milind\Desktop\29092012\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\29092012\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c"
+A3=_ "C:\Documents and Settings\Milind\Desktop\29092012_1\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\01102012\Key Logic+Touch\Project\Virtual_COM_Port\src\main.c"
+A4=_ "C:\Documents and Settings\atul\Desktop\12102012\11102012\72x144\Final Except Touch\Project\Virtual_COM_Port\src\main.c" "E:\Milind_STM32\72x144\FIRMWARE\12102012\72x144\Final Except Touch\Project\Virtual_COM_Port\src\main.c"
+A5=_ "C:\Documents and Settings\atul\Desktop\13102012\72x144\Final Except Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\15102012\72x144\Final Except Touch\Project\Virtual_COM_Port\src\main.c"
+A6=_ "C:\Documents and Settings\atul\Desktop\15102012\72x144\Final Except Touch\Project\Virtual_COM_Port\src\main.c" ""
+A7=_ "C:\Documents and Settings\atul\Desktop\Final_AE9000_BM+Energy 05.06.2015\Project\Virtual_COM_Port\src\main.c" "D:\abhijit\AE 9000 BM energy\Final_AE9000_BM+Energy 18.08.2015\Project\Virtual_COM_Port\src\main.c"
+A8=_ "C:\Documents and Settings\atul\Desktop\MILIND\121212\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\System_Configuration.c" "E:\Digital Panel Meter\Multifunction\131212\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\System_Configuration.c"
+A9=_ "C:\Documents and Settings\atul\Desktop\MILIND\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\main.c" ""
+A10=_ "C:\Documents and Settings\atul\Desktop\U_MET Series\03102012\Final Except Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\Milind\Desktop\04102012\Final Except Touch\Project\Virtual_COM_Port\src\main.c"
+A11=_ "C:\Documents and Settings\shreekant\Desktop\OLD Bin file\µM-9900\Project_uMET\Project\Virtual_COM_Port\src\mb.c" "C:\Documents and Settings\atul\Desktop\µM-9900\AE9000BM_updated\Project\Virtual_COM_Port\src\mb.c"
+A12=_ "D:\Atul\24_08_2019\AE9000BM(24_8_2019)\Project\Virtual_COM_Port\src\main.c" ""
+A13=_ "D:\sanghmitra\AE900_BM\for_AE_9000_BM_production_9.1.14\Project\Virtual_COM_Port\src\mb.c" ""
+A14=_ "E:\Atole\AE9000BM_ENERGY_CTR_PTR_120817\AE9000_BM+Energy 120817\Project\Virtual_COM_Port\src\main.c" ""
+A15=_ "E:\Atole\Copy of AE9000BM_ENERGY_18032017\AE9000_BM+Energy 120817\Project\Virtual_COM_Port\src\main.c" ""
+A16=_ "E:\Atole\FINAL_CODE\AE9000BM_ENERGY_25032018\AE9000_BM+Energy 120817\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_usart.c" ""
+A17=_ "E:\Digital Panel Meter\Multifunction\131212\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\System_Configuration.c" "E:\Digital Panel Meter\Multifunction\uM-9900\271212\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\System_Configuration.c"
+A18=_ "E:\Digital Panel Meter\Multifunction\Copy of 30112012\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\main.c" "E:\Digital Panel Meter\Multifunction\02122012\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\main.c"
+A19=_ "E:\Digital Panel Meter\Multifunction\uM-9900\Copy of 24012013\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\main.c" "E:\Digital Panel Meter\Multifunction\uM-9900\24012013_MOD\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\main.c"
+A20=_ "E:\Digital Panel Meter\Multifunction\uM-9900\Copy of 25012013_MOD\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\mb.c" "F:\uMET-9900 Development\Final_shreekant\uMET9900\DISPALY\ALL IN ONE\Project\Project\Virtual_COM_Port\src\mb.c"
+A21=_ "E:\Milind_STM32\72x144\FIRMWARE\03102012\Final Except Touch\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\U_MET Series\03102012\Final Except Touch\Project\Virtual_COM_Port\src\main.c"
+A22=_ "E:\Milind_STM32\72x144\FIRMWARE\08082012\Copy of TIM_INT_ADC_1 chn\Project\Virtual_COM_Port\src\main.c" "E:\Milind_STM32\72x144\FIRMWARE\09082012\TIM_TRG_ADC_DMA_INT_3 chn\Project\Virtual_COM_Port\src\main.c"
+A23=_ "E:\Milind_STM32\72x144\FIRMWARE\09082012\Copy of TIM_TRG_ADC_DMA_INT_3 chn\Project\Virtual_COM_Port\src\main.c" "E:\Milind_STM32\72x144\FIRMWARE\09082012_working_parijat\Copy of TIM_TRG_ADC_DMA_INT_3 chn\Project\Virtual_COM_Port\src\main.c"
+A24=_ "E:\Milind_STM32\72x144\FIRMWARE\14092012\Working CODE FOR VB SW TESTING\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\Avinash\Desktop\WATT METER\15092012\All In One\Project\Virtual_COM_Port\src\main.c"
+A25=_ "E:\Milind_STM32\72x144\FIRMWARE\18092012\All In One\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\Avinash\Desktop\18092012\All In One\Project\Virtual_COM_Port\src\main.c"
+A26=_ "E:\Milind_STM32\72x144\FIRMWARE\22082012\ADC working\Project\Virtual_COM_Port\src\main.c" "C:\Documents and Settings\atul\Desktop\milind_watt\ADC working\Project\Virtual_COM_Port\src\main.c"
+A27=_ "E:\Project_uMET\Project\Virtual_COM_Port\src\mb.c" "C:\Documents and Settings\atul\Desktop\µM-9900\Project_uMET\Project\Virtual_COM_Port\src\mb.c"
+A28=_ "E:\SHRUTI\BM\ok_code\AE9000BM(24_8_2019)\Libraries\STM32L1xx_StdPeriph_Driver\src\stm32l1xx_usart.c" ""
+Count=29
+SuppressDialog=1
