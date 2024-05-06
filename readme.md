@@ -10,3 +10,17 @@ Input from Chintamani on 26th April 2024:
 
 Kindly make above corrections.
 ```
+
+#### Action taken on 06-May-2024
+
+1. Value is sufficient in the register
+2. Updated the code and sent an email to Chintamani:
+```
+Dear Sir,
+Resolving the "????" issue is not possible to solve from here. Please check out the raw data coming during the transaction and share those values with me.
+Overall it seems that it is a Modscan issue.
+
+We have updated the code and removed Scroll time and Energy Reset. Let LED test be there for time being.
+Kindly coordinate with me to collect the software. You will need to compile it at your end and test.
+```
+

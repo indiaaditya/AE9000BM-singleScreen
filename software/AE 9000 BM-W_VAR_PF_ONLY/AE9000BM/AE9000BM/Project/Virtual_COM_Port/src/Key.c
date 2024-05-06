@@ -400,6 +400,11 @@ void Select_Key(void)
                 if(ConFig_Flag==1)         /*--------------select window of configuration-----------------------*/
                 {
                 Set_Cunt++;
+                //IANET: 060524
+                if((Set_Cunt==6) || (Set_Cunt==9)) //6: scroll 9: Reset Energy
+                  Set_Cunt++;
+
+
                 if(Set_Cunt==12)
                 {
                 Set_Cunt=1;
@@ -472,7 +477,8 @@ void Select_Key(void)
                              CreatePagePattConfigDisp(Set_Cunt);
                              MountDisplay(uiConfigPage[Set_Cunt-1], uiBlinkChar);
                     }
-                    else if (Set_Cunt==6)   /*--------------select scroll-----------------------*/
+                    //IANET: commented on 060524
+                    /*else if (Set_Cunt==6)   /*--------------select scroll-----------------------
                     {
                       if(On_time_Flag==1)
                       {                      // ON time edit
@@ -500,7 +506,7 @@ void Select_Key(void)
                               reqConfiguration.uiScrollON=1;
                            }
                       }
-                    }
+                    }*/
                     else if (Set_Cunt==7)     /*---------------------------MOD ID SELECTION-------------------------*/
                     {  ucDigitArray[ucPos]++;
                         if(ucDigitArray[ucPos] >= 15)
@@ -548,8 +554,8 @@ void Select_Key(void)
                             Blink_Config();
                             */
                    }
-
-                    else if (Set_Cunt==9)                   /*---------------------For RESET ENERGY --------------------------*/
+                  //IANET: commented on 060524
+                   /* else if (Set_Cunt==9)                   /*---------------------For RESET ENERGY --------------------------
                      {
 
                        if(Reset_Energy_flag ==0)
@@ -561,7 +567,7 @@ void Select_Key(void)
                       CreatePagePattConfigDisp(Set_Cunt);
                       MountDisplay(uiConfigPage[Set_Cunt-1], uiBlinkChar);
                      }
-
+                     */ 
 
 
                 }
